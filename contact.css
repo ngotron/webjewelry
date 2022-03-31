@@ -1,0 +1,243 @@
+#contact {
+    display: none;
+}
+
+#contact #navbar2 {
+    z-index: 09;
+    padding: 80px 10px;
+    background-color: white;
+    position: fixed;
+    top: -50px;
+    height: 85px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+}
+
+#contact #navbar2 .link-item {
+    text-transform: uppercase;
+    float: left;
+    display: block;
+    color: #8d4247;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#contact #logo2 {
+    width: 100px;
+}
+
+#contact .logo2 {
+    /* margin-top: 30px; */
+    /* width: 100%; */
+    margin-left: 90px;
+    position: absolute;
+    bottom: 0px;
+    top: 60px;
+    /* display: flex; */
+    /* font-weight: bold; */
+    transition: 0.4s;
+    /* bottom: 50px; */
+}
+
+#contact #navbar2 .menu-nav2 {
+    margin-left: 200px;
+}
+
+
+/* #contact #navbar2 .link-item {
+    /* background-color: #8d4247; */
+
+#contact #navbar2 .link-item:hover {
+    background-color: #8d4247;
+    color: rgb(253, 253, 253);
+}
+
+.hero {
+    /* color: rgb(209, 53, 53); */
+    height: 80vh;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    transition: 1s;
+}
+
+
+/* background: transparent(0.5); */
+
+
+/* .hero .fa-times {
+    color: #5f2c3e;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    float: right;
+} */
+
+.hero .image-login {
+    margin: 6% auto;
+    float: left;
+    margin-left: 300px;
+}
+
+.image-login img {
+    width: 400px;
+    height: 480px;
+}
+
+.hero .form-box {
+    float: right;
+    /* background-image: url(https://images.pexels.com/photos/4974496/pexels-photo-4974496.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    overflow: hidden;
+    margin-right: 300px;
+}
+
+.form-box .button-box {
+    width: 250px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+.button-box .toggle-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+.button-box #btn {
+    color: #0f0b0b;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* right: 30px; */
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    background-color: #8d4247;
+    /* background: linear-gradient(to right, #ff105f, #ffad06); */
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.form-box .social-icons {
+    /* margin: 50px auto; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.form-box .social-icons .fab {
+    color: aliceblue;
+    padding: 10px 10px;
+    font-size: 25px;
+    /* width: 30px; */
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #d15c5c3d;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #8d4247;
+}
+
+.form-box .input-group {
+    top: 230px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-group .input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.input-group .submit-btn {
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    color: black;
+    background-color: #8d4247;
+    /* background: linear-gradient(to right, #ff105f, #ffad06); */
+    border: 0;
+    outline: none;
+}
+
+.input-group .check-box {
+    margin: 0px 10px 30px 0;
+}
+
+.input-group #noteLogin {
+    color: #0f0b0b;
+}
+
+.input-group span {
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    /* position: absolute; */
+}
+
+
+/* công nè */
+
+
+/* Khánh Linh */
+
+#login #eyesHide #eyes {
+    /* display: block; */
+    position: absolute;
+    top: 80px;
+    left: 93%;
+}
+
+.input-group #login span #eyes {
+    /* z-index: 100; */
+    cursor: pointer;
+}
+
+#register #eyesHided #eyesRes {
+    /* display: block; */
+    position: absolute;
+    top: 132px;
+    left: 93%;
+    /* left: 10%; */
+}
+
+.input-group #register span #eyesRes {
+    /* z-index: 100; */
+    cursor: pointer;
+}
+
+#login {
+    left: 65px;
+}
+
+#register {
+    /* right: 450px; */
+    /* display: none; */
+    left: 415px;
+}
